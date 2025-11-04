@@ -64,7 +64,13 @@ View directly on GitHub:
 Enjoy using PaintHub!
 
 ## Demo
-[![Watch the demo](Inputpenguin.jpeg.jpg)](demo/Painthub_demo.mp4)
+
+<p align="center">
+  <video src="demo/Painthub_demo.mp4" width="100%" controls muted playsinline>
+    Sorry, your browser doesn't support embedded videos.
+  </video>
+  <br><em>PaintHub — quick walkthrough</em>
+</p>
 
 ## Author
 Lee Shan Yan 
