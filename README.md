@@ -65,7 +65,7 @@ Enjoy using PaintHub!
 
 ## Demo
 <p align="center">
-  <img src="figures/demo.gif" alt="PaintHub demo" width="100%">
+  <img src="demo/demo.gif" alt="PaintHub demo" width="100%">
   <br><em>PaintHub — quick walkthrough</em>
 </p>
 
