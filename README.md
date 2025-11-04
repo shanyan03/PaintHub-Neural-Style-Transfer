@@ -28,15 +28,11 @@ View directly on GitHub:
 - **Extensible**: drop new style images into `styles/` and they appear in the GUI
 
 ## Getting started
-1. Install deps:
-   ```bash
-   pip install -r requirements.txt
-   ```
-2. Run GUI:
+1. Run GUI:
    ```bash
    python app/main.py
    ```
-3. In the app: **Browse Image → pick style → Apply → Download**.
+2. In the app: **Browse Image → pick style → Apply → Download**.
 
 ## How it works (short)
 - Extract **content features** and **style features** from a pretrained CNN (e.g., VGG).
