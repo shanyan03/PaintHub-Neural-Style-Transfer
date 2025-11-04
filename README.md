@@ -2,6 +2,13 @@
 
 **One-liner:** Turn any photo into art in the style of **Van Gogh, Munch, or Picasso** using neural style transfer, wrapped in a simple **Tkinter** desktop GUI.
 
+<!-- Before → After -->
+<p align="center">
+  <img src="Inputpenguin.jpeg.jpg" alt="Original content image" width="49%">
+  <img src="final_output.png" alt="Stylized result (Neural Style Transfer)" width="49%">
+  <br><em>Original → Stylized (optimization-based neural style transfer)</em>
+</p>
+
 ## What’s here
 - `Main.ipynb` — end-to-end notebook (core NST logic + quick tests)
 - `app/` — GUI code and assets (browse image, pick style, apply, save)
@@ -19,6 +26,39 @@ View directly on GitHub:
 - **Fast & simple GUI**: pick an image, choose a style (Van Gogh / Munch / Picasso), press **Apply**, then **Download**
 - **Reproducible**: notebook for experiments, GUI for end users
 - **Extensible**: drop new style images into `styles/` and they appear in the GUI
+
+## Getting started
+1. Install deps:
+   ```bash
+   pip install -r requirements.txt
+   ```
+2. Run GUI:
+   ```bash
+   python app/main.py
+   ```
+3. In the app: **Browse Image → pick style → Apply → Download**.
+
+## Demo
+
+<!-- Inline player -->
+<p align="center">
+  <video src="demo/Painthub_demo.mp4" width="100%" controls muted playsinline>
+    Sorry, your browser doesn't support embedded videos.
+  </video>
+  <br><em>PaintHub — quick walkthrough</em>
+</p>
+
+<!-- Fallback: clickable thumbnail to MP4 page -->
+<p align="center">
+  <a href="demo/Painthub_demo.mp4">
+    <img src="Inputpenguin.jpeg.jpg" alt="Watch the demo" width="60%">
+  </a>
+</p>
+
+## How it works (short)
+- Extract **content features** and **style features** from a pretrained CNN (e.g., VGG).
+- Minimize a weighted sum of **content loss** + **style loss** (Gram-matrix based).
+- Update the **output image** (not the network) via gradient descent until it looks like the photo “painted” in the chosen style.
 
 ## Getting started
 ~ upon running the main.py file ~
