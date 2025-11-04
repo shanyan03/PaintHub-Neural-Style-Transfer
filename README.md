@@ -64,13 +64,13 @@ View directly on GitHub:
 Enjoy using PaintHub!
 
 ## Demo
-
 <p align="center">
-  <video src="demo/Painthub_demo.mp4" width="100%" controls muted playsinline>
-    Sorry, your browser doesn't support embedded videos.
-  </video>
+  <img src="figures/demo.gif" alt="PaintHub demo" width="100%">
   <br><em>PaintHub — quick walkthrough</em>
 </p>
 
+<p align="center">
+  <a href="demo/Painthub_demo.mp4">▶ Watch full MP4 (HD)</a>
+</p>
 ## Author
 Lee Shan Yan 
