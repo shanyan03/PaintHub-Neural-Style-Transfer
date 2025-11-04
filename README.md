@@ -69,8 +69,5 @@ Enjoy using PaintHub!
   <br><em>PaintHub — quick walkthrough</em>
 </p>
 
-<p align="center">
-  <a href="demo/Painthub_demo.mp4">▶ Watch full MP4 (HD)</a>
-</p>
 ## Author
 Lee Shan Yan 
