@@ -38,23 +38,6 @@ View directly on GitHub:
    ```
 3. In the app: **Browse Image → pick style → Apply → Download**.
 
-## Demo
-
-<!-- Inline player -->
-<p align="center">
-  <video src="demo/Painthub_demo.mp4" width="100%" controls muted playsinline>
-    Sorry, your browser doesn't support embedded videos.
-  </video>
-  <br><em>PaintHub — quick walkthrough</em>
-</p>
-
-<!-- Fallback: clickable thumbnail to MP4 page -->
-<p align="center">
-  <a href="demo/Painthub_demo.mp4">
-    <img src="Inputpenguin.jpeg.jpg" alt="Watch the demo" width="60%">
-  </a>
-</p>
-
 ## How it works (short)
 - Extract **content features** and **style features** from a pretrained CNN (e.g., VGG).
 - Minimize a weighted sum of **content loss** + **style loss** (Gram-matrix based).
